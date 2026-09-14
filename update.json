@@ -1,18 +1,18 @@
 {
     "schema_version":  1,
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.1",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.2",
                   "artifact":  {
-                                   "size_bytes":  2100981,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.1/ResearchPlatformShell-Setup-0.1.1.exe",
-                                   "sha256":  "4ee96c3cac505b3e51840e12df08fff3ac059f87d4545b2ca4c5425085069fd2",
+                                   "size_bytes":  2101118,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.2/ResearchPlatformShell-Setup-0.1.2.exe",
+                                   "sha256":  "7bb7609ff0c986bcf2e1b73a67c6b013457a2012cb8539c1641912dd47a8f16d",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.1.1",
-                  "notes":  "Self-update proof: 0.1.1"
+                  "latest":  "0.1.2",
+                  "notes":  "Fix Setup post-install launch: run the VBS via wscript.exe (CreateProcess cannot start .vbs)."
               },
-    "generated_at":  "2026-09-14T18:50:13Z",
+    "generated_at":  "2026-09-14T19:36:00Z",
     "app_packs":  [
 
                   ]
