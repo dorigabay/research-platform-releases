@@ -1,0 +1,19 @@
+{
+    "schema_version":  1,
+    "shell":  {
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.0",
+                  "artifact":  {
+                                   "size_bytes":  2100957,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.0/ResearchPlatformShell-Setup-0.1.0.exe",
+                                   "sha256":  "a627d1f32726364b9f09d1abd791988e7d44933ff611c26e5925df9816152ba9",
+                                   "kind":  "inno-setup"
+                               },
+                  "id":  "platform-shell",
+                  "latest":  "0.1.0",
+                  "notes":  "First installable shell: version + update check."
+              },
+    "generated_at":  "2026-09-14T18:47:23Z",
+    "app_packs":  [
+
+                  ]
+}
