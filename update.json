@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T12:27:25Z",
+    "generated_at":  "2026-09-15T19:13:52Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.2",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.3",
                   "artifact":  {
-                                   "size_bytes":  2273746,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.2/ResearchPlatformShell-Setup-0.2.2.exe",
-                                   "sha256":  "4a9e3c7dadc188bf3822abb7f7922eaac82eab83f75ca6ea02c48797c6d2251f",
+                                   "size_bytes":  2276752,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.3/ResearchPlatformShell-Setup-0.2.3.exe",
+                                   "sha256":  "2772178fa3c228464594af010d1a5a110e22dbd1a8d767b9a1d6d95db1a8f0d5",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.2",
-                  "notes":  "Shell 0.2.2: wait for /api/health then Navigate to Home (0.2.1 left about:blank). Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
+                  "latest":  "0.2.3",
+                  "notes":  "Shell 0.2.3: wait for WebView core then Navigate (splash cannot stay on about:blank). Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
               },
     "app_packs":  [
 
