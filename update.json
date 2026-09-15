@@ -1,19 +1,39 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T08:20:12Z",
+    "generated_at":  "2026-09-15T09:25:07Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.4",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.0",
                   "artifact":  {
-                                   "size_bytes":  2262117,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.4/ResearchPlatformShell-Setup-0.1.4.exe",
-                                   "sha256":  "26dacbef7e1168bc2d28f3f01647fae7a4c1020e7e460d7126748288310330ae",
+                                   "size_bytes":  2264583,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.0/ResearchPlatformShell-Setup-0.2.0.exe",
+                                   "sha256":  "289d7d69630c44886e97321bace6685550d055e6fe0273e309882f67c66cc3d5",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.1.4",
-                  "notes":  "Fix launch after 0.1.3: import updater globally so the window can open."
+                  "latest":  "0.2.0",
+                  "notes":  "Standalone shell: first-run runtime, then Maze DXF via Updates."
               },
     "app_packs":  [
 
-                  ]
+                  ],
+    "apps":  {
+                 "maze-dxf":  {
+                                  "latest":  "0.1.0",
+                                  "artifact":  {
+                                                   "size_bytes":  40900,
+                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.0/app-maze-dxf-v0.1.0.zip",
+                                                   "sha256":  "d0db97f3b79dbf37c47dc8b2a7c905bc50a3f40142df6491273d957eb448240f",
+                                                   "kind":  "app-pack-zip"
+                                               }
+                              }
+             },
+    "runtime":  {
+                    "latest":  "0.2.0",
+                    "artifact":  {
+                                     "size_bytes":  24449330,
+                                     "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/runtime%2Fv0.2.0/ResearchPlatformRuntime-0.2.0.zip",
+                                     "sha256":  "49518ef4507182bed628e08a2e45f26f3ac60392b6c5c79845b7eed002c0d057",
+                                     "kind":  "zip"
+                                 }
+                }
 }
