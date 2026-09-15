@@ -1,38 +1,38 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T09:25:07Z",
+    "generated_at":  "2026-09-15T12:05:35Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.0",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.1",
                   "artifact":  {
-                                   "size_bytes":  2264583,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.0/ResearchPlatformShell-Setup-0.2.0.exe",
-                                   "sha256":  "289d7d69630c44886e97321bace6685550d055e6fe0273e309882f67c66cc3d5",
+                                   "size_bytes":  2273213,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.1/ResearchPlatformShell-Setup-0.2.1.exe",
+                                   "sha256":  "52a71986757364324aad4aabe2330f633bcdc537ad99d48f2ca666ecab93c0c0",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.0",
-                  "notes":  "Standalone shell: first-run runtime, then Maze DXF via Updates."
+                  "latest":  "0.2.1",
+                  "notes":  "Shell 0.2.1: runtime 0.2.1 applies on open (new Home), Maze DXF 0.1.1 from the Home card."
               },
     "app_packs":  [
 
                   ],
     "apps":  {
                  "maze-dxf":  {
-                                  "latest":  "0.1.0",
+                                  "latest":  "0.1.1",
                                   "artifact":  {
-                                                   "size_bytes":  40900,
-                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.0/app-maze-dxf-v0.1.0.zip",
-                                                   "sha256":  "d0db97f3b79dbf37c47dc8b2a7c905bc50a3f40142df6491273d957eb448240f",
+                                                   "size_bytes":  18024040,
+                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.1/app-maze-dxf-v0.1.1.zip",
+                                                   "sha256":  "8a0dd08cf33bc84a1cc5c1e814941735b67fa20b2348bc27aca58897fbd80181",
                                                    "kind":  "app-pack-zip"
                                                }
                               }
              },
     "runtime":  {
-                    "latest":  "0.2.0",
+                    "latest":  "0.2.1",
                     "artifact":  {
-                                     "size_bytes":  24449330,
-                                     "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/runtime%2Fv0.2.0/ResearchPlatformRuntime-0.2.0.zip",
-                                     "sha256":  "49518ef4507182bed628e08a2e45f26f3ac60392b6c5c79845b7eed002c0d057",
+                                     "size_bytes":  24494710,
+                                     "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/runtime%2Fv0.2.1/ResearchPlatformRuntime-0.2.1.zip",
+                                     "sha256":  "3aff082b0222f36ed2775dd8784ade3f23def3b8cdd0506e22260997c5c36a1e",
                                      "kind":  "zip"
                                  }
                 }
