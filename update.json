@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T19:13:52Z",
+    "generated_at":  "2026-09-15T19:29:05Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.3",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.4",
                   "artifact":  {
-                                   "size_bytes":  2276752,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.3/ResearchPlatformShell-Setup-0.2.3.exe",
-                                   "sha256":  "2772178fa3c228464594af010d1a5a110e22dbd1a8d767b9a1d6d95db1a8f0d5",
+                                   "size_bytes":  2277293,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.4/ResearchPlatformShell-Setup-0.2.4.exe",
+                                   "sha256":  "608810261e823b59809fd2256fd584597c873da1060049ea0f921533a81022c8",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.3",
-                  "notes":  "Shell 0.2.3: wait for WebView core then Navigate (splash cannot stay on about:blank). Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
+                  "latest":  "0.2.4",
+                  "notes":  "Shell 0.2.4: if :8000 is lab-owned, bind the user runtime on the next free port (8100+) and never fall through to the lab dashboard. After Check for updates to Update (silent Inno), relaunch ResearchPlatformShell.exe. Wait-for-core Navigate already shipped in 0.2.3. Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
               },
     "app_packs":  [
 
