@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T08:07:19Z",
+    "generated_at":  "2026-09-15T08:20:12Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.3",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.4",
                   "artifact":  {
-                                   "size_bytes":  2261949,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.3/ResearchPlatformShell-Setup-0.1.3.exe",
-                                   "sha256":  "966cf77059e6bd2d30c3af93cf472878e58f3d2d9b99f888a559e874b41cfb72",
+                                   "size_bytes":  2262117,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.4/ResearchPlatformShell-Setup-0.1.4.exe",
+                                   "sha256":  "26dacbef7e1168bc2d28f3f01647fae7a4c1020e7e460d7126748288310330ae",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.1.3",
-                  "notes":  "Dark Updates bar and website hexagon icon."
+                  "latest":  "0.1.4",
+                  "notes":  "Fix launch after 0.1.3: import updater globally so the window can open."
               },
     "app_packs":  [
 
