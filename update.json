@@ -1,18 +1,18 @@
 {
     "schema_version":  1,
+    "generated_at":  "2026-09-15T08:07:19Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.2",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.1.3",
                   "artifact":  {
-                                   "size_bytes":  2101118,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.2/ResearchPlatformShell-Setup-0.1.2.exe",
-                                   "sha256":  "7bb7609ff0c986bcf2e1b73a67c6b013457a2012cb8539c1641912dd47a8f16d",
+                                   "size_bytes":  2261949,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.1.3/ResearchPlatformShell-Setup-0.1.3.exe",
+                                   "sha256":  "966cf77059e6bd2d30c3af93cf472878e58f3d2d9b99f888a559e874b41cfb72",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.1.2",
-                  "notes":  "Fix Setup post-install launch: run the VBS via wscript.exe (CreateProcess cannot start .vbs)."
+                  "latest":  "0.1.3",
+                  "notes":  "Dark Updates bar and website hexagon icon."
               },
-    "generated_at":  "2026-09-14T19:36:00Z",
     "app_packs":  [
 
                   ]
