@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T19:29:05Z",
+    "generated_at":  "2026-09-15T19:37:25Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.4",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.5",
                   "artifact":  {
-                                   "size_bytes":  2277293,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.4/ResearchPlatformShell-Setup-0.2.4.exe",
-                                   "sha256":  "608810261e823b59809fd2256fd584597c873da1060049ea0f921533a81022c8",
+                                   "size_bytes":  2277659,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.5/ResearchPlatformShell-Setup-0.2.5.exe",
+                                   "sha256":  "5168ae900e49b36c1caddc02591e97046d4f256b0e0e2100abdc692ac22f521d",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.4",
-                  "notes":  "Shell 0.2.4: if :8000 is lab-owned, bind the user runtime on the next free port (8100+) and never fall through to the lab dashboard. After Check for updates to Update (silent Inno), relaunch ResearchPlatformShell.exe. Wait-for-core Navigate already shipped in 0.2.3. Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
+                  "latest":  "0.2.5",
+                  "notes":  "Shell 0.2.5: first-run no longer freezes WebView2 while binding a free port; wait until the dashboard URL actually loads. Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
               },
     "app_packs":  [
 
