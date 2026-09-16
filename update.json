@@ -1,38 +1,47 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-16T06:56:00Z",
+    "generated_at":  "2026-09-16T09:24:57Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.6",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.7",
                   "artifact":  {
-                                   "size_bytes":  2279865,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.6/ResearchPlatformShell-Setup-0.2.6.exe",
-                                   "sha256":  "7773d1141410f08e50aef3158f6dd22d40d523052c1af59e8d702e2a998114a8",
+                                   "size_bytes":  2280210,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.7/ResearchPlatformShell-Setup-0.2.7.exe",
+                                   "sha256":  "6c1870b8a4ae015bea1da9be9a88d084d4b8e1b27eac328b8801baac49737621",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.6",
-                  "notes":  "Runtime 0.2.2: user-shell Home skips lab access-plan so a 404 cannot empty #root. Home shows Runtime {version}. Shell 0.2.6 and Maze DXF 0.1.1 unchanged."
+                  "latest":  "0.2.7",
+                  "notes":  "Shell 0.2.7: starting screen (logo + spinner) instead of the lab-dashboard lecture; user Maze binds a free port and gets fabrication defaults so the designer opens. Runtime 0.2.3 and Maze DXF 0.1.3 unchanged."
               },
     "app_packs":  [
 
                   ],
     "apps":  {
+                 "ant-detection":  {
+                                       "latest":  "0.1.0",
+                                       "artifact":  {
+                                                        "size_bytes":  59008538,
+                                                        "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection%2Fv0.1.0/app-ant-detection-v0.1.0.zip",
+                                                        "sha256":  "fda4c709a7395183b390ab05a003086730eefe34663a1854bfc769b279b0590e",
+                                                        "kind":  "app-pack-zip"
+                                                    }
+                                   },
                  "maze-dxf":  {
-                                  "latest":  "0.1.1",
+                                  "latest":  "0.1.3",
                                   "artifact":  {
-                                                   "size_bytes":  18024040,
-                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.1/app-maze-dxf-v0.1.1.zip",
-                                                   "sha256":  "8a0dd08cf33bc84a1cc5c1e814941735b67fa20b2348bc27aca58897fbd80181",
+                                                   "size_bytes":  18024968,
+                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.3/app-maze-dxf-v0.1.3.zip",
+                                                   "sha256":  "ddf50583d4b5b498a1ce2a9ceb23c53d79342e3e9f97f5af7804d9d74c5ecc27",
                                                    "kind":  "app-pack-zip"
                                                }
                               }
              },
     "runtime":  {
-                    "latest":  "0.2.2",
+                    "latest":  "0.2.3",
                     "artifact":  {
-                                     "size_bytes":  24489274,
-                                     "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/runtime%2Fv0.2.2/ResearchPlatformRuntime-0.2.2.zip",
-                                     "sha256":  "7a7de25f45d9250df97e8b5cf1a84bfe79d0916d4b8b48ab3c552ee065f47a6f",
+                                     "size_bytes":  24504728,
+                                     "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/runtime%2Fv0.2.3/ResearchPlatformRuntime-0.2.3.zip",
+                                     "sha256":  "fde27fb6a019d5a721bb0805e535abbb13ab59c84116bd15827009e51fde132f",
                                      "kind":  "zip"
                                  }
                 }
