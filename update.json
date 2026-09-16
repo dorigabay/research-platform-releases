@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-16T06:54:11Z",
+    "generated_at":  "2026-09-16T06:56:00Z",
     "shell":  {
                   "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.6",
                   "artifact":  {
@@ -18,11 +18,11 @@
                   ],
     "apps":  {
                  "maze-dxf":  {
-                                  "latest":  "0.1.2",
+                                  "latest":  "0.1.1",
                                   "artifact":  {
-                                                   "size_bytes":  18024964,
-                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.2/app-maze-dxf-v0.1.2.zip",
-                                                   "sha256":  "7bab59efb6acb8d0310f385c97b79d161cd2a69ee22b8a1735d15bce5d7bab81",
+                                                   "size_bytes":  18024040,
+                                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fmaze-dxf%2Fv0.1.1/app-maze-dxf-v0.1.1.zip",
+                                                   "sha256":  "8a0dd08cf33bc84a1cc5c1e814941735b67fa20b2348bc27aca58897fbd80181",
                                                    "kind":  "app-pack-zip"
                                                }
                               }
