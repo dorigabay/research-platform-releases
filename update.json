@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-15T19:37:25Z",
+    "generated_at":  "2026-09-16T05:24:14Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.5",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.6",
                   "artifact":  {
-                                   "size_bytes":  2277659,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.5/ResearchPlatformShell-Setup-0.2.5.exe",
-                                   "sha256":  "5168ae900e49b36c1caddc02591e97046d4f256b0e0e2100abdc692ac22f521d",
+                                   "size_bytes":  2279888,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.6/ResearchPlatformShell-Setup-0.2.6.exe",
+                                   "sha256":  "9294f07570cdde1d9958017edbeb9a0bcbe31f86eb7ba4e623de94e12292ac29",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.5",
-                  "notes":  "Shell 0.2.5: first-run no longer freezes WebView2 while binding a free port; wait until the dashboard URL actually loads. Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
+                  "latest":  "0.2.6",
+                  "notes":  "Shell 0.2.6: starting screen (logo + spinner) instead of the lab-dashboard lecture; user Maze binds a free port and gets fabrication defaults so the designer opens. Runtime 0.2.1 and Maze DXF 0.1.1 unchanged."
               },
     "app_packs":  [
 
