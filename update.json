@@ -1,31 +1,22 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-16T09:57:27Z",
+    "generated_at":  "2026-09-17T06:45:07Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.7",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.8",
                   "artifact":  {
-                                   "size_bytes":  2280210,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.7/ResearchPlatformShell-Setup-0.2.7.exe",
-                                   "sha256":  "6c1870b8a4ae015bea1da9be9a88d084d4b8e1b27eac328b8801baac49737621",
+                                   "size_bytes":  2281276,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.8/ResearchPlatformShell-Setup-0.2.8.exe",
+                                   "sha256":  "1bebaed7553db882613596494885231d4b06491751d64a7421d8d8cbc5c9360e",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.7",
-                  "notes":  "Shell 0.2.7: starting screen (logo + spinner) instead of the lab-dashboard lecture; user Maze binds a free port and gets fabrication defaults so the designer opens. Runtime 0.2.4 and Maze DXF 0.1.3 unchanged."
+                  "latest":  "0.2.8",
+                  "notes":  "Shell 0.2.8: catalog-driven pack apply (engine addon + DATA_ROOT clone + re-apply packs after a runtime zip). Runtime 0.2.4 and Maze DXF 0.1.3 unchanged. Detection 0.1.0 unchanged."
               },
     "app_packs":  [
 
                   ],
     "apps":  {
-                 "ant-detection":  {
-                                       "latest":  "0.1.0",
-                                       "artifact":  {
-                                                        "size_bytes":  59008538,
-                                                        "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection%2Fv0.1.0/app-ant-detection-v0.1.0.zip",
-                                                        "sha256":  "fda4c709a7395183b390ab05a003086730eefe34663a1854bfc769b279b0590e",
-                                                        "kind":  "app-pack-zip"
-                                                    }
-                                   },
                  "maze-dxf":  {
                                   "latest":  "0.1.3",
                                   "artifact":  {
@@ -34,7 +25,25 @@
                                                    "sha256":  "ddf50583d4b5b498a1ce2a9ceb23c53d79342e3e9f97f5af7804d9d74c5ecc27",
                                                    "kind":  "app-pack-zip"
                                                }
-                              }
+                              },
+                 "ant-detection-engine":  {
+                                              "latest":  "0.1.0",
+                                              "artifact":  {
+                                                               "size_bytes":  92459748,
+                                                               "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection-engine%2Fv0.1.0/app-ant-detection-engine-v0.1.0.zip",
+                                                               "sha256":  "95fbd41be22a3061994f2d10e3d29b7cb3a0821cdabad882cd0f943e57b5e08e",
+                                                               "kind":  "app-pack-zip"
+                                                           }
+                                          },
+                 "ant-detection":  {
+                                       "latest":  "0.1.0",
+                                       "artifact":  {
+                                                        "size_bytes":  59008538,
+                                                        "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection%2Fv0.1.0/app-ant-detection-v0.1.0.zip",
+                                                        "sha256":  "fda4c709a7395183b390ab05a003086730eefe34663a1854bfc769b279b0590e",
+                                                        "kind":  "app-pack-zip"
+                                                    }
+                                   }
              },
     "runtime":  {
                     "latest":  "0.2.4",
