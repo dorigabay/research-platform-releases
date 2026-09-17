@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-17T14:51:29Z",
+    "generated_at":  "2026-09-17T15:39:47Z",
     "shell":  {
-                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.8",
+                  "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.9",
                   "artifact":  {
-                                   "size_bytes":  2281276,
-                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.8/ResearchPlatformShell-Setup-0.2.8.exe",
-                                   "sha256":  "1bebaed7553db882613596494885231d4b06491751d64a7421d8d8cbc5c9360e",
+                                   "size_bytes":  2283156,
+                                   "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/shell%2Fv0.2.9/ResearchPlatformShell-Setup-0.2.9.exe",
+                                   "sha256":  "bc8ed1bbf49530fb458b2d344be62d491bacdb5dd5930a6943acc099da3032be",
                                    "kind":  "inno-setup"
                                },
                   "id":  "platform-shell",
-                  "latest":  "0.2.8",
-                  "notes":  "Shell 0.2.8: catalog-driven pack apply (engine addon + DATA_ROOT clone + re-apply packs after a runtime zip). Runtime 0.2.7 and Maze DXF 0.1.4 unchanged. Detection 0.1.1 unchanged."
+                  "latest":  "0.2.9",
+                  "notes":  "Shell 0.2.9: catalog-driven pack apply (engine addon + DATA_ROOT clone + re-apply packs after a runtime zip). Runtime 0.2.7 and Maze DXF 0.1.4 unchanged. Detection 0.1.1 unchanged."
               },
     "app_packs":  [
 
