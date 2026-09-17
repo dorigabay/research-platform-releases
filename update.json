@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-09-17T13:50:51Z",
+    "generated_at":  "2026-09-17T14:51:29Z",
     "shell":  {
                   "notes_url":  "https://github.com/dorigabay/research-platform-releases/releases/tag/shell%2Fv0.2.8",
                   "artifact":  {
@@ -11,7 +11,7 @@
                                },
                   "id":  "platform-shell",
                   "latest":  "0.2.8",
-                  "notes":  "Shell 0.2.8: catalog-driven pack apply (engine addon + DATA_ROOT clone + re-apply packs after a runtime zip). Runtime 0.2.7 and Maze DXF 0.1.4 unchanged. Detection 0.1.0 unchanged."
+                  "notes":  "Shell 0.2.8: catalog-driven pack apply (engine addon + DATA_ROOT clone + re-apply packs after a runtime zip). Runtime 0.2.7 and Maze DXF 0.1.4 unchanged. Detection 0.1.1 unchanged."
               },
     "app_packs":  [
 
@@ -36,11 +36,11 @@
                                                            }
                                           },
                  "ant-detection":  {
-                                       "latest":  "0.1.0",
+                                       "latest":  "0.1.1",
                                        "artifact":  {
-                                                        "size_bytes":  59008538,
-                                                        "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection%2Fv0.1.0/app-ant-detection-v0.1.0.zip",
-                                                        "sha256":  "fda4c709a7395183b390ab05a003086730eefe34663a1854bfc769b279b0590e",
+                                                        "size_bytes":  59091603,
+                                                        "url":  "https://github.com/dorigabay/research-platform-releases/releases/download/app%2Fant-detection%2Fv0.1.1/app-ant-detection-v0.1.1.zip",
+                                                        "sha256":  "67e808dd823866e7a31a167b30c1aba455ca77cb2ff6405c8ca590a511b8ac1c",
                                                         "kind":  "app-pack-zip"
                                                     }
                                    }
